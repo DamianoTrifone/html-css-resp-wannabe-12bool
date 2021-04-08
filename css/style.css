@@ -21,3 +21,8 @@ img{
     background-color: #428BCA;
     border-radius: 50%;
 }
+
+hr{
+    border: 1px solid lightslategrey;
+    width: 80%;
+}
