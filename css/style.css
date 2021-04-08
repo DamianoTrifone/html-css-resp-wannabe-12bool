@@ -1,7 +1,23 @@
 .container{
     text-align: center;
+    
 }
 
 img{
     width: 150px;
+}
+
+.col-lg-6{
+    float: left;
+}
+
+.col-lg-6::after{
+    content: "";
+    display: table;
+    clear: both;   
+}
+
+.trasparente{
+    background-color: #428BCA;
+    border-radius: 50%;
 }
